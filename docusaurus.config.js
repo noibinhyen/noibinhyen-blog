@@ -67,8 +67,6 @@ const config = {
             items: [{ to: '/blogs/tags', label: 'All tags' }],
             position: 'left',
           },
-          { to: '/portfolio', label: 'Portfolio', position: 'left' },
-          { to: '/about', label: 'About', position: 'left' },
           {
             href: 'https://github.com/buiducnhat/noibinhyen-blog',
             label: 'GitHub',
