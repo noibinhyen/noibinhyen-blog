@@ -1,0 +1,30 @@
+{
+  "title": {
+    "message": "Noibinhyen",
+    "description": "The title in the navbar"
+  },
+  "item.label.Series": {
+    "message": "Series",
+    "description": "Navbar item with label Series"
+  },
+  "item.label.Blogs": {
+    "message": "Blogs",
+    "description": "Navbar item with label Blogs"
+  },
+  "item.label.Portfolio": {
+    "message": "Portfolio",
+    "description": "Navbar item with label Portfolio"
+  },
+  "item.label.About": {
+    "message": "About",
+    "description": "Navbar item with label About"
+  },
+  "item.label.GitHub": {
+    "message": "GitHub",
+    "description": "Navbar item with label GitHub"
+  },
+  "item.label.All tags": {
+    "message": "All tags",
+    "description": "Navbar item with label All tags"
+  }
+}
