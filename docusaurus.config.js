@@ -3,7 +3,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Nơi bình yên',
+  title: 'noibinhyen',
   tagline: 'Blog website',
   url: 'https://noibinhyen.tech',
   baseUrl: '/',
@@ -47,7 +47,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Noibinhyen',
+        title: 'noibinhyen',
         logo: {
           alt: 'Logo',
           src: 'img/logo.svg',
@@ -84,16 +84,16 @@ const config = {
             title: 'Social',
             items: [
               {
-                label: 'Facebook',
+                label: 'Bùi Đức Nhật',
                 href: 'https://www.facebook.com/buiducnhat47',
               },
               {
-                label: 'Email',
-                href: 'mailto:nhaths4701@gmail.com',
+                label: 'Hải Đức',
+                href: 'https://www.facebook.com/profile.php?id=100025366033633',
               },
               {
-                label: 'Github',
-                href: 'https://github.com/buiducnhat',
+                label: 'Đào Bá Khánh',
+                href: 'https://www.facebook.com/2imdaokhanhbk',
               },
             ],
           },

@@ -11,7 +11,7 @@ module.exports = {
     extend: {
       colors: {
         primary: colors.sky,
-        secondary: colors.fuchsia,
+        secondary: colors.lime,
       },
     },
   },

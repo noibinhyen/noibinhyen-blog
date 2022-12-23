@@ -1,6 +1,6 @@
 {
   "title": {
-    "message": "Noibinhyen",
+    "message": "noibinhyen",
     "description": "The title in the navbar"
   },
   "item.label.Series": {
@@ -10,14 +10,6 @@
   "item.label.Blogs": {
     "message": "Blogs",
     "description": "Navbar item with label Blogs"
-  },
-  "item.label.Portfolio": {
-    "message": "Portfolio",
-    "description": "Navbar item with label Portfolio"
-  },
-  "item.label.About": {
-    "message": "About",
-    "description": "Navbar item with label About"
   },
   "item.label.GitHub": {
     "message": "GitHub",

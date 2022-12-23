@@ -2,6 +2,21 @@
   "homepage.title": {
     "message": "Home page"
   },
+  "Welcome to noibinhyen blog": {
+    "message": "Welcome to noibinhyen"
+  },
+  "Blog website for sharing about technologies, Web/App, Embedded, IOT and more...": {
+    "message": "Blog website for sharing about technologies, Web/App, Embedded, IOT and more..."
+  },
+  "Let's discover more about us": {
+    "message": "Let's discover more about us"
+  },
+  "Blog": {
+    "message": "Blog"
+  },
+  "Series": {
+    "message": "Series"
+  },
   "theme.ErrorPageContent.title": {
     "message": "This page crashed.",
     "description": "The title of the fallback page when the page crashed"
@@ -42,10 +57,6 @@
     "message": "caution",
     "description": "The default label used for the Caution admonition (:::caution)"
   },
-  "theme.BackToTopButton.buttonAriaLabel": {
-    "message": "Scroll back to top",
-    "description": "The ARIA label for the back to top button"
-  },
   "theme.blog.archive.title": {
     "message": "Archive",
     "description": "The page & hero title of the blog archive page"
@@ -53,6 +64,10 @@
   "theme.blog.archive.description": {
     "message": "Archive",
     "description": "The page & hero description of the blog archive page"
+  },
+  "theme.BackToTopButton.buttonAriaLabel": {
+    "message": "Scroll back to top",
+    "description": "The ARIA label for the back to top button"
   },
   "theme.blog.paginator.navAriaLabel": {
     "message": "Blog list page navigation",

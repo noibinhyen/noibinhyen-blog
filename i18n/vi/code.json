@@ -2,6 +2,21 @@
   "homepage.title": {
     "message": "Home page"
   },
+  "Welcome to noibinhyen": {
+    "message": "Chào mừng bạn đến noibinhyen"
+  },
+  "Blog website for sharing about technologies, Web/App, Embedded, IOT and more...": {
+    "message": "Blog website chia sẻ về công nghệ, Web/App, Embedded, IOT và nhiều hơn nữa..."
+  },
+  "Let's discover more about us": {
+    "message": "Hãy tìm hiểu thêm về chúng mình"
+  },
+  "Blog": {
+    "message": "Blog"
+  },
+  "Series": {
+    "message": "Series"
+  },
   "theme.ErrorPageContent.title": {
     "message": "Trang này đã bị lỗi.",
     "description": "The title of the fallback page when the page crashed"

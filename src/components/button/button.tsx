@@ -2,21 +2,24 @@ import React from 'react';
 import { ButtonProps } from 'react-html-props';
 import { twMerge } from 'tailwind-merge';
 
-import styles from './button.module.css';
-
 interface MyButtonProps extends ButtonProps {
   isLoading?: boolean;
   hasShadow?: boolean;
+  size?: 'sm' | 'md' | 'lg' | 'xl';
 }
 
-function Button({ isLoading, hasShadow: isShadow, children, className, ...rest }: MyButtonProps) {
+function Button({ isLoading, hasShadow, size, children, className, ...rest }: MyButtonProps) {
   return (
     <button
       className={twMerge(
-        styles.ripple,
-        'flex cursor-pointer items-center justify-center px-5 py-2.5 rounded-md font-semibold text-white bg-primary-500 duration-200',
-        isShadow &&
+        'flex cursor-pointer items-center justify-center px-5 py-2.5 rounded-md text-base font-semibold text-white bg-primary-500 ring-1 ring-primary-500 hover:bg-primary-400 dark:hover:ring-primary-50 duration-200',
+        hasShadow &&
           'shadow-md shadow-primary-300 dark:shadow-primary-700 hover:shadow-lg hover:shadow-primary-300 dark:hover:shadow-primary-700',
+        isLoading && 'opacity-50',
+        size === 'sm' && 'text-sm',
+        size === 'sm' && 'text-base',
+        size === 'lg' && 'text-lg',
+        size === 'xl' && 'text-xl',
         className
       )}
       disabled={isLoading}
