@@ -118,9 +118,9 @@ const config = {
         darkTheme: darkCodeTheme,
       },
       algolia: {
-        appId: '2EA7E19DKR',
-        apiKey: '2bbad1e4ab450747b0e31a113b09f6b6',
-        indexName: 'dev_buiducnhat',
+        appId: 'G0W46WKXP5',
+        apiKey: 'ba19b06642ffdad7305b3900666071c4',
+        indexName: 'noibinhyen-blog',
         contextualSearch: true,
         searchParameters: {},
         searchPagePath: 'search',
