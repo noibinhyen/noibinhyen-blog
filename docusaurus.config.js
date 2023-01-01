@@ -28,13 +28,13 @@ const config = {
           path: './data/series',
           sidebarPath: require.resolve('./series.sidebars.js'),
           routeBasePath: '/series',
-          editUrl: 'https://github.com/buiducnhat/noibinhyen-blog/tree/main/data/series',
+          editUrl: 'https://github.com/buiducnhat/noibinhyen-blog/tree/main',
         },
         blog: {
           path: './data/blogs',
           routeBasePath: '/blogs',
           showReadingTime: true,
-          editUrl: 'https://github.com/buiducnhat/noibinhyen-blog/tree/main/data/blogs',
+          editUrl: 'https://github.com/buiducnhat/noibinhyen-blog/tree/main',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
