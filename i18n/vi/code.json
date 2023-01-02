@@ -408,7 +408,7 @@
     "description": "The skip to content label used for accessibility, allowing to rapidly navigate to main content with keyboard tab/enter navigation"
   },
   "theme.tags.tagsPageTitle": {
-    "message": "Thẻ",
+    "message": "Tag",
     "description": "The title of the tag list page"
   }
 }

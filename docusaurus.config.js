@@ -64,13 +64,11 @@ const config = {
             type: 'dropdown',
             label: 'Blogs',
             to: '/blogs',
-            items: [{ to: '/blogs/tags', label: 'All tags' }],
+            items: [
+              { to: '/blogs/tags', label: 'All tags' },
+              { to: '/blogs', label: 'All blogs' },
+            ],
             position: 'left',
-          },
-          {
-            href: 'https://github.com/buiducnhat/noibinhyen-blog',
-            label: 'GitHub',
-            position: 'right',
           },
           {
             type: 'localeDropdown',
